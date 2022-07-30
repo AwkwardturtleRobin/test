@@ -1,0 +1,122 @@
+
+
+body {
+    margin: 0;
+    text-align: center;
+    color:black;
+    font-family: 'Old Standard TT', serif;
+}
+#content{
+    min-height: calc(100vh - 250px);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.hero-section{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section::after {
+  content: "";
+  background: url(images/1030499.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  height: 350px;
+}
+.text-shadow{
+    text-shadow: 0px 0px 4px grey;
+}
+#hero-heading{
+    background: linear-gradient(to bottom, #fca311, skyblue);
+    padding: 5px 12px;
+    border-radius: 10px;
+   
+  
+}
+#hero-text{
+    background: linear-gradient(to top, skyblue, #fff95b);
+    width:420px;
+    height:50px;
+    padding:8px 30px;
+    border-radius: 10px;
+   
+}
+.activities{
+  background: linear-gradient(#c5f9d7,#f7d486 );
+  display:flex;
+  flex-direction: column;
+  box-shadow:2px 0px 10px 5px ;
+  width: 80%;
+  margin:0 auto;
+  margin-top: -2rem
+   
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    
+    
+}
+#active-heading{
+    font-size: 1.6rem;
+    text-shadow: 0px 0px 1px black;
+
+}
+.border-radius{
+    border-radius:20px;
+}
+.guide{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 450px;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(#ffeda0,#ffa585 );
+    padding: 10px 40px;
+    height:300px;
+    margin-top: 2rem;
+  
+    gap:30px;
+}
+#my-picture{
+    height:250px;
+    width: 180px;
+    border-radius: 20%
+}
+.activities-text{
+    width:250px;
+    font-size: 1.05rem;
+    
+}
+.footer{
+    display: flex;
+    background:linear-gradient(skyblue,#ffa585);
+    height:250px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.footer-img{
+    width: 150px;
+    height: 150px;
+}
+.footer-img-css{
+    width: 100px;
+    height:150px;
+}
